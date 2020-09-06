@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+        "prettier/prettier": "error",
+        "class-methods-use-this":"off",
+        "@typescript-eslint/camelcase":"off",
+        "@typescrypt-eslint/no-unused-vars":["error", {
+            "argsIgnorePattern": "_"
+        }]
+  }
+}
